@@ -1,0 +1,56 @@
+.container{ 
+}
+
+img{
+    width: 100%;
+}
+
+
+.sekil1{
+    width: 100px;
+    height: 100px;
+    animation-name: example;
+    animation-duration: 4s;
+    position: relative;
+}
+
+.sekil2{
+    width: 35px;
+    height: 35px;
+}
+
+@keyframes example {
+   0%{
+top: 0;
+left: 0;
+   }
+   20%{
+   top: 250px;
+   right: 50px;    
+
+   }
+   40%{
+top: 200px;
+left: 50px;
+   }
+   60%{
+top: 300px;
+right: 80px;
+   }
+   80%{
+top: 250px;
+left: 100px;
+   }
+
+   100%{
+top: 200px;
+left: 120px;
+   }
+}
+/*.sekil1 img{
+    width: 100px;
+    height: 100px;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-direction: alternate;
+}*/
